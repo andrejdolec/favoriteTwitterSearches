@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Twitter search query here"
+            android:inputType="text"
+            tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25pt">
+
+            <EditText
+                android:id="@+id/edit_text_input2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:hint="Tag your query"
+                android:inputType="text"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize"
+                android:importantForAutofill="no" />
+
+            <Button
+                android:id="@+id/button_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bd9102"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tagged Searches"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15pt"
+                android:paddingBottom="15dp"
+                tools:ignore="HardcodedText" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="2"
+                android:rowCount="6">
+
+                <Button
+                    android:text="AndroidFP"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="3"
+                    android:layout_margin="8dp"
+                    android:textAllCaps="false"
+                    tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp"
+                    android:text="Edit"
+                    android:textAllCaps="false"
+                    tools:ignore="HardcodedText,DuplicateSpeakableTextCheck,VisualLintButtonSize" />
+
+                <Button
+                    android:text="Deitel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="3"
+                    android:layout_margin="8dp"
+                    android:textAllCaps="false"
+                    tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+                <Button
+                    android:text="Edit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp"
+                    android:textAllCaps="false"
+                    tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+                <Button
+                    android:text="Google"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="3"
+                    android:layout_margin="8dp"
+                    android:textAllCaps="false"
+                    tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+                <Button
+                    android:text="Edit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp"
+                    android:textAllCaps="false"
+                    tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+                <Button
+                    android:text="iPhoneFP"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="3"
+                    android:layout_margin="8dp"
+                    android:textAllCaps="false"
+                    tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+                <Button
+                    android:text="Edit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp"
+                    android:textAllCaps="false"
+                    tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+                <Button
+                    android:text="JavaFP"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="3"
+                    android:layout_margin="8dp"
+                    android:textAllCaps="false"
+                    tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+                <Button
+                    android:text="Edit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp"
+                    android:textAllCaps="false"
+                    tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+                <Button
+                    android:text="JavaHTP"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="3"
+                    android:layout_margin="8dp"
+                    android:textAllCaps="false"
+                    tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+                <Button
+                    android:text="Edit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp"
+                    android:textAllCaps="false"
+                    tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+            </GridLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/my_button"
+            android:text="Clear Tags"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
